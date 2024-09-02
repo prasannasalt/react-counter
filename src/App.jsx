@@ -16,8 +16,8 @@ function App() {
     <>
       <h1> React Counter App </h1>
       <h2> Counter Value : {counter} </h2>
-      <button onClick={addValue}> Add Value </button>
       <button onClick={removeValue}> Remove Value </button>
+      <button onClick={addValue}> Add Value </button>
     </>
   );
 }
